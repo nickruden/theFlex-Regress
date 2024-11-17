@@ -232,6 +232,13 @@
     padding: 12px 27px;
 }
 
+.rub {
+    font-size: 1em!important;
+    vertical-align: bottom;
+    line-height: 0.9em!important;
+    margin-left: 0px!important;
+}
+
 .main-page__img-line {
     position: absolute;
     top: 720px;
