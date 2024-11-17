@@ -121,7 +121,7 @@ button {
     left: 0;
     height: 100vh;
     width: 100%;
-    background: #ff3d3d36;
+    background: #00000036;
     z-index: 5;
 }
 .overlay.active {
