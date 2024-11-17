@@ -729,7 +729,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 374px) {
     .main-page {
         padding-top: 23px;
     }
