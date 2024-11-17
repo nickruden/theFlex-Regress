@@ -122,7 +122,7 @@ button {
     height: 100vh;
     width: 100%;
     background: #00000036;
-    z-index: 5;
+    z-index: 7;
 }
 .overlay.active {
     display: block;
