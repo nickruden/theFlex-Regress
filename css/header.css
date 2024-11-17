@@ -23,18 +23,20 @@
     letter-spacing: -.03em;
     color: #FAFAFA;
 }
-.header__rating-link {
+.header__button {
     display: inline-block;
     box-shadow: 0 0 0 0.6px #FFF;
     font-family: 'SuisseIntl';
     font-size: 9px;
     font-weight: 400;
     text-align: center;
+    color: #FFF;
+    background-color: transparent;
     padding: 5.5px 15px;
     border-radius: 647px;
 }
 
-.header__rating-link:hover, .header__rating-link:focus {
+.header__button:hover, .header__button:focus {
     background-color: #FFF;
     color: #000;
 }
@@ -54,7 +56,7 @@
     .header__logo {
         margin-right: 0px;
     }
-    .header__rating-link {
+    .header__button {
         max-width: none;
         font-size: 10px;
         line-height: 100%;

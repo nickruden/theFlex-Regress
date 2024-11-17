@@ -35,6 +35,18 @@
     font-style: normal; 
     font-weight: 500;
 }
+@font-face {
+    font-family: "Manrope";
+    src: url("../fonts/Manrope/Manrope-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Manrope";
+    src: url("../fonts/Manrope/Manrope-Medium.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 500;
+}
 
 html,
 body {
@@ -100,4 +112,18 @@ button {
 
 .main {
     flex: 1 0 auto;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: #ff3d3d36;
+    z-index: 5;
+}
+.overlay.active {
+    display: block;
 }
