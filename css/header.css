@@ -36,7 +36,7 @@
     border-radius: 647px;
 }
 
-.header__button:hover, .header__button:focus {
+.header__button:hover {
     background-color: #FFF;
     color: #000;
 }

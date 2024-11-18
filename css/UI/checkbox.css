@@ -12,25 +12,25 @@
     display: inline-block;
     height: 28px;
     width: 28px;
-    border: 2px solid #FFF;
+    border: 2px solid #000;
     margin-right: 17px;
 }
 .my-checkbox__old:checked + .my-checkbox__new {
-    background: #FFF;
+    background: #000;
 }
 .my-checkbox__text {
     font-family: 'SuisseIntl';
     font-size: 18px;
     font-weight: 300;
     line-height: 28px;
-    color: #FFF;
+    color: #000;
 }
 .my-checkbox__text-link {
     text-decoration: underline;
-    color: #FFF;
+    color: #000;
 }
 .my-checkbox__text-link:hover {
-    color: #b4b4b4;
+    color: #5e5e5e;
 }
 
 @media (max-width: 1500px) {

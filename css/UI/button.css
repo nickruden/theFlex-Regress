@@ -6,15 +6,15 @@
     letter-spacing: -.01em; 
     color: #F6F6F6;
     text-transform: uppercase;
-    background-color: #000;
+    background: rgba(255, 0, 45, 1);
     justify-content: center;
     align-items: center;
     border-radius: 1790px;
     padding: 18px 0px;
 }
 .my-button:hover, .my-button:focus {
-    color: #000;
-    background-color: #F6F6F6;
+    color: #F6F6F6;
+    background: rgb(196, 11, 45);
 }
 .my-button-img-wrap {
     margin-right: 5px;

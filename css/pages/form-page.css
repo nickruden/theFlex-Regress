@@ -13,6 +13,7 @@
 }
 .form-page__text {
     margin-top: 21px;
+    position: relative;
 }
 .form-page__title {
     font-size: 140px;
@@ -20,6 +21,8 @@
     letter-spacing: -.02em;
     text-transform: uppercase;
     margin-bottom: 20px;
+    z-index: 5;
+    position: relative;
 }
 .form-page__pre-trirle {
     font-family: 'SuisseIntl';
@@ -27,12 +30,14 @@
     font-weight: 400;
     line-height: 22px;
     letter-spacing: -.03em;
+    z-index: 5;
+    position: relative;
 }
 .form-page__form-wrap {
     position: relative;
 }
 .my-form {
-    background: rgba(229, 33, 0, 1);
+    background: rgba(255, 255, 255, 1);
     padding: 40px;
     border-radius: 36px;
     width: 613px;
@@ -44,15 +49,14 @@
     z-index: 10;
 }
 
-.my-button:hover .my-form__button-img-wrap path {
-    fill: #000;
-}
-
 .form-page__percent-img {
     position: absolute;
-    right: -15%;
+    right: -83%;
     z-index: 7;
-    top: -146px;
+    top: -60px;
+    max-height: 652px;
+    z-index: 0;
+    max-height: 652px;
 }
 
 @media (max-width: 1500px) {
@@ -78,11 +82,9 @@
         width: 518px;
     }
     .form-page__percent-img {
-        position: absolute;
-        right: -15%;
-        z-index: 7;
-        top: -146px;
-        height: 350px;
+        right: -76%;
+        top: -80px;
+        height: 541px;
     }
 }
 
@@ -109,11 +111,9 @@
         width: 410px;
     }
     .form-page__percent-img {
-        position: absolute;
-        right: -15%;
-        z-index: 7;
-        top: -146px;
-        height: 320px;
+        right: -67%;
+        top: -61px;
+        height: 436px;
     }
 }
 
@@ -140,11 +140,9 @@
         width: 348px;
     }
     .form-page__percent-img {
-        position: absolute;
-        right: -17%;
-        z-index: 7;
-        top: -112px;
-        height: 280px;
+        right: -65%;
+        top: -43px;
+        max-height: 386px;
     }
 }
 
@@ -169,10 +167,6 @@
         padding: 25px;
         border-radius: 20px;
         width: 348px;
-    }
-    .form-page__percent-img {
-        right: -17%;
-        top: -86px;
     }
 }
 
@@ -206,9 +200,9 @@
         width: 613px;
     }
     .form-page__percent-img {
-        right: -17%;
-        top: -86px;
-        height: 250px;
+        right: 17%;
+        top: 35px;
+        max-height: 386px;
     }
 }
 
@@ -232,9 +226,9 @@
         width: 520px;
     }
     .form-page__percent-img {
-        right: -15%;
-        top: -64px;
-        height: 210px;
+        right: 0%;
+        top: 202px;
+        max-height: 259px;
     }
 }
 
@@ -263,8 +257,8 @@
         width: 100%;
     }
     .form-page__percent-img {
-        right: -4%;
-        top: -36px;
+        right: -3%;
+        top: 130px;
         height: 190px;
     }
 }
@@ -299,7 +293,7 @@
     }
     .form-page__percent-img {
         right: -4%;
-        top: -29px;
+        top: 130px;
         height: 117px;
     }
 }
