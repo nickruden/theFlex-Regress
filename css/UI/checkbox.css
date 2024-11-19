@@ -14,9 +14,19 @@
     width: 28px;
     border: 2px solid #000;
     margin-right: 17px;
+    position: relative;
 }
 .my-checkbox__old:checked + .my-checkbox__new {
     background: #000;
+}
+.my-checkbox__old:checked + .my-checkbox__new::after {
+    content: '\2713';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 15px;
 }
 .my-checkbox__text {
     font-family: 'SuisseIntl';
@@ -38,6 +48,9 @@
         height: 22px;
         width: 22px;
         margin-right: 14px;
+    }
+    .my-checkbox__old:checked + .my-checkbox__new::after {
+        font-size: 13px;
     }
     .my-checkbox__text {
         font-size: 15px;
@@ -68,6 +81,9 @@
         height: 16px;
         width: 16px;
         margin-right: 9px;
+    }
+    .my-checkbox__old:checked + .my-checkbox__new::after {
+        font-size: 11px;
     }
     .my-checkbox__text {
         font-size: 10px;

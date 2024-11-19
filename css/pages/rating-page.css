@@ -1,7 +1,10 @@
 .rating-page {
     padding-top: 40px;
+    height: 100%;
 }
 .rating-page__container {
+    position: relative;
+    height: 100%;
 }
 .rating-page__inner {
     max-width: 1463px;
@@ -20,8 +23,21 @@
 .rating-page__table-wrap {
     max-height: 80vh;
     overflow-y: auto;
+    padding-bottom: 31px;
+}
+.rating-page__table-wrap::-webkit-scrollbar {
+    background-color: #161616;
+    overflow-y: auto;
+    width: 5px;
+}
+.rating-page__table-wrap::-webkit-scrollbar-thumb {
+    background-color: #696969;
+    overflow-y: auto;
+    border-radius: 50px;
+}
+.rating-page__table-inner {
     border-radius: 12px;
-    padding-bottom: 48px;
+    overflow: hidden;
 }
 .rating-page__table {
     width: 100%;
@@ -75,6 +91,9 @@
 }
 .rating-page__button-img-wrap path {
     fill: #000;
+}
+.ratin-page__button:hover path {
+    fill: #FFF;
 }
 
 @media (max-width: 1400px) {
