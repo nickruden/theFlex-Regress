@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Flex</title>
+
+    <link rel="stylesheet" href="../styles/reset.css">
+
+    <link rel="stylesheet" href="../styles/components/header.css">
+    <link rel="stylesheet" href="../styles/components/footer.css">
+    <link rel="stylesheet" href="../styles/components/modal.css">
+
+    <link rel="stylesheet" href="../styles/UI/button.css">
+    <link rel="stylesheet" href="../styles/UI/checkbox.css">
+    <link rel="stylesheet" href="../styles/UI/input.css">
+    <link rel="stylesheet" href="../styles/UI/select.css">
+
+    <link rel="stylesheet" href="../styles/pages/rating-page.css">
+</head>
+<body>
+    <div class="my-modal" id="info-modal">
+        <div class="my-modal__container my-container">
+            <div class="my-modal__content">
+                <div class="my-modal__header">
+                    <button class="close-button my-modal__close-button"></button>
+                </div>
+                <div class="my-modal__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus, voluptatum
+                        quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis, eius
+                        odit
+                        numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                        necessitatibus
+                        iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias consequatur
+                        incidunt
+                        tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae incidunt esse
+                        odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum corporis
+                        aperiam
+                        voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum maiores
+                        numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus, voluptatum
+                        quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis, eius
+                        odit
+                        numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                        necessitatibus
+                        iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias consequatur
+                        incidunt
+                        tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae incidunt esse
+                        odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum corporis
+                        aperiam
+                        voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum maiores
+                        numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus, voluptatum
+                        quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis, eius
+                        odit
+                        numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                        necessitatibus
+                        iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias consequatur
+                        incidunt
+                        tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae incidunt esse
+                        odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum corporis
+                        aperiam
+                        voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum maiores
+                        numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus, voluptatum
+                        quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis, eius
+                        odit
+                        numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                        necessitatibus
+                        iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias consequatur
+                        incidunt
+                        tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae incidunt esse
+                        odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum corporis
+                        aperiam
+                        voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum maiores
+                        numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus, voluptatum
+                        quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis, eius
+                        odit
+                        numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                        necessitatibus
+                        iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias consequatur
+                        incidunt
+                        tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae incidunt esse
+                        odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum corporis
+                        aperiam
+                        voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum maiores
+                        numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus, voluptatum
+                        quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis, eius
+                        odit
+                        numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                        necessitatibus
+                        iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias consequatur
+                        incidunt
+                        tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae incidunt esse
+                        odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum corporis
+                        aperiam
+                        voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum maiores
+                        numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus, voluptatum
+                        quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis, eius
+                        odit
+                        numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                        necessitatibus
+                        iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias consequatur
+                        incidunt
+                        tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae incidunt esse
+                        odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum corporis
+                        aperiam
+                        voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum maiores
+                        numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus, voluptatum
+                        quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis, eius
+                        odit
+                        numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                        necessitatibus
+                        iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias consequatur
+                        incidunt
+                        tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae incidunt esse
+                        odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum corporis
+                        aperiam
+                        voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum maiores
+                        numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus, voluptatum
+                        quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis, eius
+                        odit
+                        numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                        necessitatibus
+                        iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias consequatur
+                        incidunt
+                        tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae incidunt esse
+                        odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum corporis
+                        aperiam
+                        voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum maiores
+                        numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay"></div>
+
+    <header class="header">
+        <div class="my-container header__container">
+            <div class="header__left-info">
+            <div class="header__logo">
+                <a href="../index.html" class="header__logo-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="119" height="13" viewBox="0 0 119 13" fill="none">
+                    <path d="M0 0.161377H11.7818V1.15391H6.45683V13.51H5.32501V1.15391H0V0.161377Z" fill="white" />
+                    <path
+                        d="M28.5049 7.19759H19.5185V13.51H18.3867V0.161377H19.5185V6.20506H28.5049V0.161377H29.6367V13.5068H28.5049V7.19759Z"
+                        fill="white" />
+                    <path
+                        d="M38.3066 0.161377H46.2635V1.15391H39.4385V6.24299H45.6498V7.23552H39.4385V12.5174H46.4714V13.51H38.3066V0.161377Z"
+                        fill="white" />
+                    <path d="M53.8125 0.161377H62.1409V3.02201H57.1023V5.84471H61.5239V8.70535H57.1023V13.51H53.8125V0.161377Z"
+                        fill="white" />
+                    <path d="M68.9277 0.161377H72.2175V10.6462H78.0777V13.5068H68.9277V0.161377Z" fill="white" />
+                    <path
+                        d="M84.2439 0.161377H92.7769V3.02201H87.5337V5.36742H92.1598V8.22805H87.5337V10.6493H92.9814V13.51H84.2439V0.161377Z"
+                        fill="white" />
+                    <path
+                        d="M107.398 6.70132L112.188 13.5068H108.322L105.237 9.0246L102.192 13.5068H98.3264L103.116 6.70132L98.5582 0.161377H102.424L105.346 4.45075L108.141 0.161377H112.007L107.398 6.70132Z"
+                        fill="white" />
+                    <path
+                        d="M116.771 4.12816C115.544 4.12816 114.545 3.20201 114.545 2.06408C114.545 0.92615 115.544 0 116.771 0C117.998 0 118.997 0.92615 118.997 2.06408C118.997 3.20201 117.998 4.12816 116.771 4.12816ZM116.771 0.316092C115.731 0.316092 114.886 1.1 114.886 2.06408C114.886 3.02816 115.731 3.81207 116.771 3.81207C117.811 3.81207 118.656 3.02816 118.656 2.06408C118.656 1.1 117.811 0.316092 116.771 0.316092Z"
+                        fill="white" />
+                    <path
+                        d="M116.07 2.98824V1.12961C116.183 1.12961 116.694 1.12329 116.752 1.12329C117.298 1.12329 117.492 1.37616 117.492 1.71754C117.492 2.06209 117.263 2.20433 117.154 2.2549L117.737 2.98824H117.182L116.694 2.33709H116.524V2.98824H116.07ZM116.527 1.52789V1.93881H116.694C116.868 1.93881 117.008 1.88191 117.008 1.72387C117.008 1.61956 116.95 1.52157 116.732 1.52157C116.66 1.52157 116.623 1.52473 116.527 1.52789Z"
+                        fill="white" />
+                </svg>
+            </a>
+            </div>
+            <div class="header__copy-text">&copy; 2024 THE FLEX — <br> Сеть фитнес-студий в России</div>
+        </div>
+        <button class="header__button" data-modal="info-modal">правила участия</button>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="rating-page">
+            <div class="rating-page__container my-container">
+                <div class="rating-page__inner">
+                    <div class="rating-page__title">
+                        Рейтинг
+                    </div>
+                    <div class="rating-page__table-wrap">
+                        <div class="rating-page__table-inner">
+                        <table class="rating-page__table">
+                            <thread class="rating-page__table-header">
+                                <tr>
+                                    <th>место</th>
+                                    <th>время</th>
+                                    <th>имя</th>
+                                    <th>телефон</th>
+                                </tr>
+                            </thread>
+                            <tbody class="rating-page__table-body">
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2,513</td>
+                                    <td>Ольга</td>
+                                    <td>...5210</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    </div>
+                    <div class="my-button__wrap">
+                        <button class="my-button ratin-page__button">
+                            <div class="my-button-img-wrap rating-page__button-img-wrap">
+                                <svg width="15" height="22" viewBox="0 0 15 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M6.35189 6.97094L0.86852 12.3962L5.50675 12.566C4.51073 15.4549 2.53245 21.6408 2.54383 21.6839C2.55511 21.727 10.6839 14.1056 14.6275 10.1724L9.7577 9.9941C9.85974 9.39025 12.5099 0.950934 12.4918 0.895171C12.4794 0.856633 10.0804 3.28182 6.35189 6.97094Z"
+                                        fill="#FFF" />
+                                </svg>
+                            </div> забрать свою скидку
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./assets/scripts/modal.js"></script>
+    
+</body>
+</html>

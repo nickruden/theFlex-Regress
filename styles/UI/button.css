@@ -1,0 +1,122 @@
+.my-button {
+    display: flex;
+    font-family: 'HeadingNow';
+    font-size: 26px;
+    line-height: 28px;
+    letter-spacing: -.01em; 
+    color: #F6F6F6;
+    text-transform: uppercase;
+    background: #ff4051;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1790px;
+    padding: 18px 0px;
+}
+.my-button:hover, .my-button:focus {
+    color: #F6F6F6;
+    background: #dc3745;
+}
+.my-button:hover svg path, .my-button:focus svg path {
+    fill: #F6F6F6;
+}
+.my-button-img-wrap {
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1500px) {
+    .my-button {
+        font-size: 23px;
+        line-height: 26px;
+        border-radius: 1400px;
+        padding: 15px 0px;
+    }
+    .my-button-img-wrap {
+        margin-right: 4px;
+        height: 19px;
+    }
+    .my-button-img-wrap svg {
+        height: 19px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .my-button {
+        font-size: 20px;
+        line-height: 22px;
+        border-radius: 1300px;
+        padding: 12px 0px 10px 0px;
+    }
+    .my-button-img-wrap {
+        height: 16px;
+    }
+    .my-button-img-wrap svg {
+        height: 16px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .my-button {
+        font-size: 16px;
+        line-height: 18px;
+        border-radius: 1000px;
+        padding: 10px 0px 8px 0px;
+    }
+    .my-button-img-wrap {
+        margin-right: 3px;
+        height: 15px;
+    }
+    .my-button-img-wrap svg {
+        height: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .my-button {
+        font-size: 20px;
+        line-height: 22px;
+        border-radius: 1300px;
+        padding: 12px 0px 10px 0px;
+    }
+    .my-button-img-wrap {
+        height: 16px;
+    }
+    .my-button-img-wrap svg {
+        height: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .my-button {
+        font-size: 16px;
+        line-height: 18px;
+        border-radius: 1000px;
+        padding: 10px 0px 8px 0px;
+    }
+    .my-button-img-wrap {
+        margin-right: 3px;
+        height: 15px;
+    }
+    .my-button-img-wrap svg {
+        height: 15px;
+    }
+}
+
+@media (max-width: 650px) {
+
+}
+@media (max-width: 425px) {
+    .my-button {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 14px 0px;
+    }
+    .my-button-img-wrap {
+        margin-right: 2px;
+        height: 12px;
+    }
+    .my-button-img-wrap svg {
+        height: 12px;
+    }
+}

@@ -1,0 +1,143 @@
+.my-checkbox {
+    display: flex;
+    cursor: pointer;
+}
+.my-checkbox:not(:last-child) {
+    margin-bottom: 62px;
+}
+.my-checkbox__old {
+    display: none;
+}
+.my-checkbox__new {
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    border: 2px solid #FFF;
+    margin-right: 17px;
+    position: relative;
+}
+.my-checkbox__old:checked + .my-checkbox__new {
+    background: #FFF;
+}
+.my-checkbox__old:checked + .my-checkbox__new::after {
+    content: '\2713';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-size: 15px;
+}
+.my-checkbox__text {
+    font-family: 'SuisseIntl';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #FFF;
+}
+.my-checkbox__text-link {
+    text-decoration: underline;
+    color: #FFF;
+}
+.my-checkbox__text-link:hover {
+    color: #c3c3c3;
+}
+
+@media (max-width: 1500px) {
+    .my-checkbox__new {
+        height: 22px;
+        width: 22px;
+        margin-right: 14px;
+    }
+    .my-checkbox__old:checked + .my-checkbox__new::after {
+        font-size: 13px;
+    }
+    .my-checkbox__text {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .my-checkbox:not(:last-child) {
+        margin-bottom: 53px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .my-checkbox__new {
+        height: 19px;
+        width: 19px;
+        margin-right: 13px;
+    }
+    .my-checkbox__text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .my-checkbox:not(:last-child) {
+        margin-bottom: 41px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .my-checkbox__new {
+        height: 16px;
+        width: 16px;
+        margin-right: 9px;
+    }
+    .my-checkbox__old:checked + .my-checkbox__new::after {
+        font-size: 11px;
+    }
+    .my-checkbox__text {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .my-checkbox:not(:last-child) {
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 991px) {
+    .my-checkbox__new {
+        height: 19px;
+        width: 19px;
+        margin-right: 13px;
+    }
+    .my-checkbox__text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .my-checkbox:not(:last-child) {
+        margin-bottom: 41px;
+    }
+}
+
+@media (max-width: 768px) {
+    .my-checkbox__new {
+        height: 16px;
+        width: 16px;
+        margin-right: 9px;
+    }
+    .my-checkbox__text {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .my-checkbox:not(:last-child) {
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 650px) {
+
+}
+@media (max-width: 425px) {
+    .my-checkbox__new {
+        height: 16px;
+        width: 16px;
+        margin-right: 9px;
+    }
+    .my-checkbox__text {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .my-checkbox:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}

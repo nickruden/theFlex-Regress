@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Flex</title>
+
+    <link rel="stylesheet" href="./styles/reset.css">
+
+    <link rel="stylesheet" href="./styles/UI/button.css">
+    <link rel="stylesheet" href="./styles/UI/checkbox.css">
+    <link rel="stylesheet" href="./styles/UI/input.css">
+    <link rel="stylesheet" href="./styles/UI/select.css">
+
+    <link rel="stylesheet" href="./styles/components/header.css">
+    <link rel="stylesheet" href="./styles/components/footer.css">
+    <link rel="stylesheet" href="./styles/components/modal.css">
+
+
+    <link rel="stylesheet" href="./styles/pages/main-page.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="my-modal" id="info-modal">
+            <div class="my-modal__container my-container">
+                <div class="my-modal__content">
+                    <div class="my-modal__header">
+                        <button class="close-button my-modal__close-button"></button>
+                    </div>
+                    <div class="my-modal__body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus,
+                            voluptatum
+                            quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis,
+                            eius
+                            odit
+                            numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                            necessitatibus
+                            iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias
+                            consequatur
+                            incidunt
+                            tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae
+                            incidunt esse
+                            odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum
+                            corporis
+                            aperiam
+                            voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum
+                            maiores
+                            numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus,
+                            voluptatum
+                            quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis,
+                            eius
+                            odit
+                            numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                            necessitatibus
+                            iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias
+                            consequatur
+                            incidunt
+                            tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae
+                            incidunt esse
+                            odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum
+                            corporis
+                            aperiam
+                            voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum
+                            maiores
+                            numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus,
+                            voluptatum
+                            quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis,
+                            eius
+                            odit
+                            numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                            necessitatibus
+                            iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias
+                            consequatur
+                            incidunt
+                            tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae
+                            incidunt esse
+                            odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum
+                            corporis
+                            aperiam
+                            voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum
+                            maiores
+                            numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus,
+                            voluptatum
+                            quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis,
+                            eius
+                            odit
+                            numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                            necessitatibus
+                            iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias
+                            consequatur
+                            incidunt
+                            tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae
+                            incidunt esse
+                            odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum
+                            corporis
+                            aperiam
+                            voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum
+                            maiores
+                            numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus,
+                            voluptatum
+                            quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis,
+                            eius
+                            odit
+                            numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                            necessitatibus
+                            iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias
+                            consequatur
+                            incidunt
+                            tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae
+                            incidunt esse
+                            odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum
+                            corporis
+                            aperiam
+                            voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum
+                            maiores
+                            numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus,
+                            voluptatum
+                            quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis,
+                            eius
+                            odit
+                            numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                            necessitatibus
+                            iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias
+                            consequatur
+                            incidunt
+                            tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae
+                            incidunt esse
+                            odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum
+                            corporis
+                            aperiam
+                            voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum
+                            maiores
+                            numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus,
+                            voluptatum
+                            quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis,
+                            eius
+                            odit
+                            numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                            necessitatibus
+                            iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias
+                            consequatur
+                            incidunt
+                            tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae
+                            incidunt esse
+                            odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum
+                            corporis
+                            aperiam
+                            voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum
+                            maiores
+                            numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus,
+                            voluptatum
+                            quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis,
+                            eius
+                            odit
+                            numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                            necessitatibus
+                            iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias
+                            consequatur
+                            incidunt
+                            tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae
+                            incidunt esse
+                            odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum
+                            corporis
+                            aperiam
+                            voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum
+                            maiores
+                            numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam molestiae ducimus,
+                            voluptatum
+                            quaerat cupiditate amet maxime a consequatur. Assumenda ab, necessitatibus ratione officiis,
+                            eius
+                            odit
+                            numquam soluta quis facilis, quidem eaque. Magnam error repudiandae quibusdam, dolorum
+                            necessitatibus
+                            iusto, quasi velit tenetur sint quis veritatis in molestias deleniti eveniet alias
+                            consequatur
+                            incidunt
+                            tempora cum eum commodi nulla. Nulla ratione iste accusamus at possimus impedit beatae
+                            incidunt esse
+                            odio necessitatibus amet, soluta totam et consequuntur vel iusto ducimus voluptas earum
+                            corporis
+                            aperiam
+                            voluptate magnam voluptates. Eligendi cupiditate error laboriosam aliquam ratione nostrum
+                            maiores
+                            numquam autem. Commodi totam aperiam consectetur magni nemo?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+
+        <header class="header">
+            <div class="my-container header__container">
+                <div class="header__left-info">
+                    <div class="header__logo">
+                        <a href="./index.html" class="header__logo-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="119" height="13" viewBox="0 0 119 13"
+                                fill="none">
+                                <path d="M0 0.161377H11.7818V1.15391H6.45683V13.51H5.32501V1.15391H0V0.161377Z"
+                                    fill="white" />
+                                <path
+                                    d="M28.5049 7.19759H19.5185V13.51H18.3867V0.161377H19.5185V6.20506H28.5049V0.161377H29.6367V13.5068H28.5049V7.19759Z"
+                                    fill="white" />
+                                <path
+                                    d="M38.3066 0.161377H46.2635V1.15391H39.4385V6.24299H45.6498V7.23552H39.4385V12.5174H46.4714V13.51H38.3066V0.161377Z"
+                                    fill="white" />
+                                <path
+                                    d="M53.8125 0.161377H62.1409V3.02201H57.1023V5.84471H61.5239V8.70535H57.1023V13.51H53.8125V0.161377Z"
+                                    fill="white" />
+                                <path d="M68.9277 0.161377H72.2175V10.6462H78.0777V13.5068H68.9277V0.161377Z"
+                                    fill="white" />
+                                <path
+                                    d="M84.2439 0.161377H92.7769V3.02201H87.5337V5.36742H92.1598V8.22805H87.5337V10.6493H92.9814V13.51H84.2439V0.161377Z"
+                                    fill="white" />
+                                <path
+                                    d="M107.398 6.70132L112.188 13.5068H108.322L105.237 9.0246L102.192 13.5068H98.3264L103.116 6.70132L98.5582 0.161377H102.424L105.346 4.45075L108.141 0.161377H112.007L107.398 6.70132Z"
+                                    fill="white" />
+                                <path
+                                    d="M116.771 4.12816C115.544 4.12816 114.545 3.20201 114.545 2.06408C114.545 0.92615 115.544 0 116.771 0C117.998 0 118.997 0.92615 118.997 2.06408C118.997 3.20201 117.998 4.12816 116.771 4.12816ZM116.771 0.316092C115.731 0.316092 114.886 1.1 114.886 2.06408C114.886 3.02816 115.731 3.81207 116.771 3.81207C117.811 3.81207 118.656 3.02816 118.656 2.06408C118.656 1.1 117.811 0.316092 116.771 0.316092Z"
+                                    fill="white" />
+                                <path
+                                    d="M116.07 2.98824V1.12961C116.183 1.12961 116.694 1.12329 116.752 1.12329C117.298 1.12329 117.492 1.37616 117.492 1.71754C117.492 2.06209 117.263 2.20433 117.154 2.2549L117.737 2.98824H117.182L116.694 2.33709H116.524V2.98824H116.07ZM116.527 1.52789V1.93881H116.694C116.868 1.93881 117.008 1.88191 117.008 1.72387C117.008 1.61956 116.95 1.52157 116.732 1.52157C116.66 1.52157 116.623 1.52473 116.527 1.52789Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header__copy-text">&copy; 2024 THE FLEX — <br> Сеть фитнес-студий в России</div>
+                </div>
+                <button class="header__button" data-modal="info-modal">правила участия</button>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="main-page">
+                <div class="main-page__container my-container">
+                    <div class="main-page__left">
+                        <div class="main-page__percent">-60%</div>
+                    </div>
+                    <div class="main-page__inner">
+                        <!-- <div class="main-page__left">
+                        <div class="main-page__percent">-80%</div>
+                    </div> -->
+                        <div class="main-page__right">
+                            <div class="main-page__right-top">
+                                <div class="main-page__title">Твоя <br> скидка <br> за скорость</div>
+                                <button class="main-page__timer-line-button">
+                                    <span class="main-page__timer-line-button-text">
+                                        <div class="main-page__timer-line-button-img-wrap">
+                                            <svg width="15" height="22" viewBox="0 0 15 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M6.35189 6.97094L0.86852 12.3962L5.50675 12.566C4.51073 15.4549 2.53245 21.6408 2.54383 21.6839C2.55511 21.727 10.6839 14.1056 14.6275 10.1724L9.7577 9.9941C9.85974 9.39025 12.5099 0.950934 12.4918 0.895171C12.4794 0.856633 10.0804 3.28182 6.35189 6.97094Z"
+                                                    fill="#FFF" />
+                                            </svg>
+                                            <img src="./assets/images/lock.svg" alt=""
+                                                class="main-page__timer-line-button-lock-page">
+                                        </div> Забрать скидку
+                                    </span>
+                                    <div class="main-page__timer-line-button-timer-bar"></div>
+                                </button>
+                                <div class="main-page__pre-title">Ты успела третьей, вау! Скорее забирай свою <br>
+                                    скидку — осталось нажать на кнопку</div>
+                                <div class="main-page__mobile-pre-title">Нажми на кнопку, чтобы забрать свою скидку
+                                </div>
+                            </div>
+                            <div class="main-page__right-bottom">
+                                <div class="main-page__advantages">
+                                    <div class="main-page__advantage-item">
+                                        <div class="main-page__advantage-top-text">скидка на абонемент</div>
+                                        <div class="main-page__advantage-pre-title">Ты успела третьей, вау! Скорее
+                                            забирай свою скидку — осталось нажать на кнопку</div>
+                                        <div class="main-page__advantage-price">-60%
+                                            <div class="discount-text">
+                                                <div class="main-page__discount-text-img">
+                                                    <svg width="15" height="22" viewBox="0 0 15 22" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M6.35189 6.97094L0.86852 12.3962L5.50675 12.566C4.51073 15.4549 2.53245 21.6408 2.54383 21.6839C2.55511 21.727 10.6839 14.1056 14.6275 10.1724L9.7577 9.9941C9.85974 9.39025 12.5099 0.950934 12.4918 0.895171C12.4794 0.856633 10.0804 3.28182 6.35189 6.97094Z"
+                                                            fill="#000" />
+                                                    </svg>
+                                                </div> только сейчас
+                                            </div>
+                                            <span class="percent-text">до</span>
+                                            <!-- <img src="./assets/images/advantage-background.png" alt="" class="main-page__advantage-bg"> -->
+                                        </div>
+                                    </div>
+                                    <div class="main-page__advantage-item">
+                                        <div class="main-page__advantage-top-text">занимайся за</div>
+                                        <div class="main-page__advantage-price">
+                                            <div class="main-page__advantage-price-img-wrap">
+                                                <svg width="18" height="27" viewBox="0 0 18 27" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M7.58837 8.39461L0.69023 15.1462L6.28067 15.2099C4.92987 18.746 2.22391 26.313 2.23543 26.365C2.24683 26.4169 12.4513 16.9192 17.4141 12.0253L11.5445 11.9585C11.6987 11.2226 15.3314 0.900548 15.3125 0.833435C15.2995 0.787054 12.2789 3.80357 7.58837 8.39461Z"
+                                                        fill="#FF4051" />
+                                                </svg>
+
+                                            </div> 2 999<span class="rub">₽</span><span>/мес</span>
+                                        </div>
+                                    </div>
+                                    <div class="main-page__advantage-item">
+                                        <div class="main-page__advantage-top-text">выгода</div>
+                                        <div class="main-page__advantage-price">54 670<span class="rub">₽</span></div>
+                                    </div>
+                                    <!-- <div class="main-page__advantage-item">
+                                    <div class="main-page__advantage-top-text">платить в декабре</div>
+                                    <div class="main-page__advantage-price">0<span class="rub">₽</span></div>
+                                </div> -->
+                                    <div class="main-page__advantage-item">
+                                        <div class="main-page__advantage-top-text">платить в декабре</div>
+                                        <div class="main-page__advantage-price">0<span class="rub">₽</span></div>
+                                    </div>
+                                </div>
+                                <button class="main-page__timer-button">забрать скидку <span
+                                        class="main-page__timer-button-time">01:24</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/images/main-line.svg" alt="" class="main-page__img-line">
+                    <div class="main-page__img-line-mobile">
+                        <svg width="528" height="143" viewBox="0 0 528 143" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_44_1314)">
+                                <rect x="24" y="79.5006" width="528.871" height="39.8711"
+                                    transform="rotate(-6.68674 24 79.5006)" fill="url(#paint0_linear_44_1314)" />
+                            </g>
+                            <!-- Первый текст -->
+                            <text x="70" y="113" fill="white" font-size="24" transform="rotate(-6, -50, -20)">WOMAN DAY
+                                SALE</text>
+
+                            <!-- Второй текст, смещенный вправо и вниз -->
+                            <text x="170" y="92" fill="white" font-size="24" transform="rotate(-6, 120, -480)">WOMAN DAY
+                                SALE</text>
+
+                            <!-- Третий текст, еще больше смещенный -->
+                            <text x="260" y="81" fill="white" font-size="24" transform="rotate(-6, 190, -1080)">WOMAN
+                                DAY SALE</text>
+                            <defs>
+                                <filter id="filter0_d_44_1314" x="0.54641" y="0.286867" width="527.163" height="142.267"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset />
+                                    <feGaussianBlur stdDeviation="11.7268" />
+                                    <feComposite in2="hardAlpha" operator="out" />
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                        result="effect1_dropShadow_44_1314" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_44_1314"
+                                        result="shape" />
+                                </filter>
+                                <linearGradient id="paint0_linear_44_1314" x1="24" y1="99.4362" x2="502.871"
+                                    y2="99.4362" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.3" stop-color="#FF4051" />
+                                    <stop offset="0.555" stop-color="#040404" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="main-page__bg-images">
+            <img src="./assets/images/main-mobile-bg-img.png" alt="" class="main-page__mobile-img-bg">
+        </div>
+
+        <footer class="footer">
+            <div class="my-container footer__container">
+                <div class="footer__inner">
+                    <div class="footer__copy-text">© 2024 THE FLEX — Сеть фитнес-студий в Сибири.</div>
+                    <div class="footer__contacts">
+                        <div class="footer__social-media">
+                            <a href="" class="footer__social-link"><img src="./assets/images/social-media/tg_white.svg"
+                                    alt="tg-icon" class="footer__social-icon"></a>
+                            <a href="./pages/rating.html" class="footer__button-link">общий рейтинг</a>
+                        </div>
+                        <div class="footer__phones"><a href="tel:+79999999999" class="footer__phone-number">+7 (999) 999
+                                99-99</a></div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/images/background-img.png" alt="" class="main-page__img-bg">
+        </footer>
+    </div>
+
+    <script src="./assets/scripts/modal.js"></script>
+
+    <!-- СКРИПТ ТАЙМЕРА -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const timerBar = document.querySelector('.main-page__timer-line-button-timer-bar');
+            const timerLineButton = document.querySelector('.main-page__timer-line-button');
+            const timerButton = document.querySelector('.main-page__timer-button');
+            const timeText = document.querySelector('.main-page__timer-button-time');
+            let totalTime = 30; // время работы таймера в секундах
+            let timeLeft = totalTime;
+
+            function updateTimer() {
+                const percentage = timeLeft / totalTime;
+                timerBar.style.width = percentage * 100 + '%';
+
+                const minutes = Math.floor(timeLeft / 60);
+                const seconds = Math.floor(timeLeft % 60);
+                timeText.innerText = (minutes < 10 ? '0' : '') + minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
+
+                if (timeLeft > 0) {
+                    timeLeft -= 0.01667;
+                    requestAnimationFrame(updateTimer);
+                } else {
+                    timerBar.style.display = 'none';
+                    timeText.innerText = '00:00';
+                    timerLineButton.classList.add("no-active")
+                    timerLineButton.style.background = "rgba(255, 255, 255, 0.1)";
+                    timerButton.style.background = '#4C4C4C';
+                }
+            }
+
+            updateTimer(); // запускаем таймер
+        });
+    </script>
+
+</body>
+
+</html>

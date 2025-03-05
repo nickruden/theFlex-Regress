@@ -1,0 +1,112 @@
+.my-select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 533px;
+}
+
+.my-select-wrapper:not(:last-child) {
+    margin-bottom: 37px;
+}
+
+.my-select {
+    width: 100%;
+    padding: 14px 23px;
+    font-family: 'SuisseIntl';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -.03em;
+    color: #F6F6F6;
+    background: #2A2A2A;
+    border-radius: 1790px;
+    cursor: pointer;
+    appearance: none;
+}
+
+.my-select-arrow {
+    position: absolute;
+    top: 50%;
+    right: 17px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #1F1F1F;
+}
+
+@media (max-width: 1500px) {
+    .my-select {
+        padding: 12px 20px;
+        font-size: 17px;
+        line-height: 24px;
+        border-radius: 1500px;
+    }
+    .my-select-wrapper:not(:last-child) {
+        margin-bottom: 31px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .my-select {
+        padding: 10px 17px;
+        font-size: 14px;
+        line-height: 19px;
+        border-radius: 1200px;
+    }
+    .my-select-wrapper:not(:last-child) {
+        margin-bottom: 26px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .my-select {
+        padding: 8px 15px;
+        font-size: 12px;
+        line-height: 16px;
+        border-radius: 1000px;
+    }
+    .my-select-wrapper:not(:last-child) {
+        margin-bottom: 19px;
+    }
+}
+
+@media (max-width: 991px) {
+    .my-select {
+        padding: 10px 17px;
+        font-size: 14px;
+        line-height: 19px;
+        border-radius: 1200px;
+    }
+    .my-select-wrapper {
+        max-width: none;
+    }
+    .my-select-wrapper:not(:last-child) {
+        margin-bottom: 26px;
+    }
+}
+
+@media (max-width: 768px) {
+    .my-select {
+        padding: 8px 15px;
+        font-size: 12px;
+        line-height: 16px;
+        border-radius: 1000px;
+    }
+    .my-select-wrapper:not(:last-child) {
+        margin-bottom: 19px;
+    }
+}
+
+@media (max-width: 650px) {
+
+}
+@media (max-width: 425px) {
+    .my-select {
+        padding: 8px 16px;
+    }
+    .my-select-wrapper:not(:last-child) {
+        margin-bottom: 14px;
+    }
+}

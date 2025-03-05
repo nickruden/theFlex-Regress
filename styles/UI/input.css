@@ -1,0 +1,180 @@
+.my-input {
+    max-width: 533px;
+    padding: 14px 23px;
+    font-family: 'SuisseIntl';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -.03em;
+    color: #F6F6F6;
+    background: #2A2A2A;
+    border-radius: 1790px;
+}
+.my-form__phone-input-wrap {
+    display: inline-flex;
+    position: relative;
+    max-width: 533px;
+}
+.my-form__phone-input-flag-icon {
+    display: inline-block;
+    position: absolute;
+    left: 23px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+}
+.my-input[type="tel"] {
+    position: relative;
+    width: 100%;
+    padding-left: 66px;
+    z-index: 2;
+}
+
+.my-input:not(:last-child) {
+    margin-bottom: 16px;
+}
+.my-form__phone-input-wrap:not(:last-child) {
+    margin-bottom: 16px;
+}
+.my-input::placeholder {
+    color: #F6F6F6;
+}
+
+@media (max-width: 1500px) {
+    .my-input {
+        padding: 12px 20px;
+        font-size: 17px;
+        line-height: 24px;
+        border-radius: 1500px;
+    }
+    .my-form__phone-input-flag-icon {
+        display: inline-block;
+        position: absolute;
+        left: 23px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 5;
+    }
+    .my-form__phone-input-flag-icon {
+        left: 20px;
+        height: 24px;
+    }
+    .my-input[type="tel"] {
+        padding-left: 57px;
+    }
+    .my-input:not(:last-child) {
+        margin-bottom: 14px;
+    }
+    .my-form__phone-input-wrap:not(:last-child) {
+        margin-bottom: 14px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .my-input {
+        padding: 10px 17px;
+        font-size: 14px;
+        line-height: 19px;
+        border-radius: 1200px;
+    }
+    .my-form__phone-input-flag-icon {
+        left: 17px;
+        height: 20px;
+    }
+    .my-input[type="tel"] {
+        padding-left: 47px;
+    }
+    .my-input:not(:last-child) {
+        margin-bottom: 12px;
+    }
+    .my-form__phone-input-wrap:not(:last-child) {
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .my-input {
+        padding: 8px 15px;
+        font-size: 12px;
+        line-height: 16px;
+        border-radius: 1000px;
+    }
+    .my-form__phone-input-flag-icon {
+        left: 15px;
+    }
+    .my-input[type="tel"] {
+        padding-left: 42px;
+    }
+    .my-input:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .my-form__phone-input-wrap:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 994px) {
+    .my-input {
+        padding: 10px 17px;
+        font-size: 14px;
+        line-height: 19px;
+        border-radius: 1200px;
+        max-width: none;
+        width: 100%;
+    }
+    .my-form__phone-input-wrap {
+        max-width: none;
+    }
+    .my-form__phone-input-flag-icon {
+        left: 17px;
+        height: 20px;
+    }
+    .my-input[type="tel"] {
+        padding-left: 47px;
+    }
+    .my-input:not(:last-child) {
+        margin-bottom: 12px;
+    }
+    .my-form__phone-input-wrap:not(:last-child) {
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .my-input {
+        padding: 8px 15px;
+        font-size: 12px;
+        line-height: 16px;
+        border-radius: 1000px;
+    }
+    .my-form__phone-input-flag-icon {
+        left: 15px;
+    }
+    .my-input[type="tel"] {
+        padding-left: 42px;
+    }
+    .my-input:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .my-form__phone-input-wrap:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+
+}
+@media (max-width: 425px) {
+    .my-input {
+        padding: 8px 16px;
+        font-size: 12px;
+        line-height: 16px;
+        border-radius: 1000px;
+    }
+    .my-form__phone-input-flag-icon {
+        left: 16px;
+    }
+    .my-input[type="tel"] {
+        padding-left: 43px;
+    }
+}

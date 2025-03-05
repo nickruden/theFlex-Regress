@@ -1,0 +1,145 @@
+.footer {
+    padding-bottom: 36px;
+    position: relative;
+}
+.footer__container {
+    position: relative;
+    z-index: 10;
+}
+.footer__inner {
+    max-width: 1463px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__copy-text {
+    font-family: 'SuisseIntl';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.footer__contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 450px;
+    width: 100%;
+}
+.footer__social-media {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.footer__social-link {
+}
+.footer__social-icon {
+}
+.footer__phones {
+    font-family: 'SuisseIntl';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 11px;
+}
+.footer__phone-number {
+    
+}
+.footer__phone-number:hover, .footer__phone-number:focus {
+    color: #d3d3d3;
+}
+
+.footer__button-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 0.6px #FFF;
+    font-family: 'SuisseIntl';
+    font-size: 9px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFF;
+    background-color: transparent;
+    padding: 5.5px 15px;
+    border-radius: 647px;
+}
+
+.footer__button-link:hover, .footer__button-link:focus {
+    background-color: #FFF;
+    color: #000;
+}
+
+@media (max-width: 1440px) {
+    .footer {
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .footer {
+        padding-bottom: 18px;
+    }
+    .footer__copy-text {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 994px) {
+    .footer__contacts {
+        gap: 120px;
+    }
+    .footer__social-icon {
+        display: inline-block;
+        height: 18px;
+    }
+    .footer__social-link:not(:last-child) {
+        margin-right: 9px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer__inner {
+        flex-direction: column-reverse;
+        gap: 14px;
+        justify-content: space-between;
+    }
+    .footer__contacts {
+        max-width: none;
+    }
+    .footer__social-media {
+        order: 2;
+    }
+    .footer__phones {
+        order: 1;
+    }
+    .footer__social-link {
+        order: 2;
+    }
+    
+    .footer__button-link {
+        order: 1;
+    }
+}
+
+@media (max-width: 650px) {
+    .footer__contacts {
+        max-width: none;
+    }
+}
+@media (max-width: 430px) {
+    .footer__contacts {
+        gap: 0px;
+        justify-content: space-between;
+    }
+
+    .footer__phones {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .footer__button-link {
+        max-width: none;
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: -.01em;
+        padding: 3px 16px;
+    }
+}
