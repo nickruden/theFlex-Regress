@@ -50,7 +50,7 @@
 
 html,
 body {
-    height: 100%;
+    min-height: 100vh;
     font-family: 'HeadingNow';
     font-size: 16px;
     font-weight: 400;
@@ -93,7 +93,7 @@ button {
 }
 
 .wrapper {
-    height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     position: relative;
